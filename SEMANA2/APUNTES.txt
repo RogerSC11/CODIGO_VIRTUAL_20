@@ -15,3 +15,5 @@ master x ...> main
 
 --------------------------
 ls  ----- listar los archivos que tengo en la ruta actual - git bash
+
+clear --- en git bash ---- limpiar pantalla
