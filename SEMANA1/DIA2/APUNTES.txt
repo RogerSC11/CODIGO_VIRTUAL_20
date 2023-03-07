@@ -1,0 +1,14 @@
+ARIA: COLECCIÓN DE ATRIBUTOS
+
+ETIQUETAS BLOQUEANTES <ARTICLE></ARTICLE>
+ETIQUETAS EN LINEA </IMG>
+ITIQUETA EN LINEA </SPAN>
+
+li*5{item $} --- listado autmático
+<br/> salto de linea
+<hr/> linea de division
+
+control + d ---- para reemplazat de forma Grupal
+
+tr*16>td{izquierda}+td{derecha}
+tr*16>td{izquierda $}+td{derecha $}

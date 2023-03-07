@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        background-color: #444;
+        color: #EEE;
+        font-family: sans-serif;
+    }
+
+    code {
+        font-family: consolas;
+        color: yellow;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Tablas</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Filas y Columnas</h2>
+            <p>Las Tablas se colocan dendtro de una etiqueta <code>table</code></p>
+            <p>Las tablas tienen 3 partes</p>
+            <ul>
+                <li><code>thead</code> :Cabecera</li>
+                <li><code>tbody</code> ;Cuerpo</li>
+                <li><code>ftoot</code> :Pie de tabla</li>
+            </ul>
+        </section>
+        <hr />
+        <section>
+            <h2>Tabla simple</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nro</th>
+                        <th>Descripcion</th>
+                        <th>P. Unitario</th>
+                        <th>P. total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>zzcxvxcvzxcvxzcvzxcvz</td>
+                        <td>100</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>yzxczxcvzxcvzxcvxzccvyy</td>
+                        <td>20</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>hzcvzxcvzcxh</td>
+                        <td>10</td>
+                        <td>40</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" align="center">Total</td>
+                        <td>1,380</td>
+
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Combinando Filas</h2>
+            <p>Para combinar filas se usa el atributo <code>rowspan</code></p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Etiquetas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="5">izquierda</td>
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">izquierda</td>
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="6">izquierda</td>
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+                    <tr>
+
+                        <td>derecha</td>
+                    </tr>
+
+
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Ejercicio</h2>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td rowspan="5">supermercados</td>
+                        <td></td>
+                        <td>25/04/2022</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">N° Factura 25611</td>
+                    </tr>
+                    <tr>
+                        <td>Cliente:</td>
+                        <td rowspan="3">
+                            Jorge Garnica <br />
+                            16354354354 <br />
+                            Dirección
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>RUC:</td>
+                    </tr>
+                    <tr>
+                        <td>Dirección</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>

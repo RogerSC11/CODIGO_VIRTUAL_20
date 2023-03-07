@@ -1,0 +1,17 @@
+CLI: 
+git
+git init --- INICIALIZAR REPOSITORIO.
+
+1.- ARCHIVOS NO RASTREADOSPOR GIT.
+2.- git add <nombre_del_archivo> 
+ 2.1.- git add. (punto siginifica rastrear todos los files)
+ 2.2.- añadiendo los archivos al STAGING
+3.-Crear un registro en e ltiempo de todos los archivos de STAGING
+ git commit -m "mensaje del commit"	 
+
+master x ...> main
+4.- git log ---> lista todos los commmit que se realizaron en el repo
+5.- git status ----> visualiza el estado del repo, es decir lisya los files que están en stating y los que no tambien.
+
+--------------------------
+ls  ----- listar los archivos que tengo en la ruta actual - git bash

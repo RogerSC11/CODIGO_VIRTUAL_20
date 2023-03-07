@@ -1,0 +1,48 @@
+*html {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: silver;
+    color: red;
+    font-size: 20px;
+    margin: 40px;
+    border: solid 3px;
+}
+
+h1,
+h3 {
+    color: blue;
+}
+
+h2,
+h4 {
+    color: brown;
+}
+
+.rojo {
+    color: green;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 3px;
+    /*width: 200px;*/
+    height: 50px;
+    text-align: center;
+    /*padding: 30px;*/
+    /* padding-top: 20px;
+    margin-top: 30px; 
+    margin-left: 50px;*/
+
+    margin-top: 50 px;
+    margin-left: 20px;
+    padding: 10px 20px 30px;
+
+}
+
+#apellido {
+    color: black;
+}

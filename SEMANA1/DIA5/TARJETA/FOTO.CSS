@@ -1,0 +1,38 @@
+body {
+    background-image: url("./foTO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: blue;
+}
+
+.cartilla {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: solid 5px;
+    border-radius: 10px;
+    /*width: 200px;*/
+    height: 250px;
+    text-align: center;
+    /*padding: 30px;*/
+    /* padding-top: 20px;
+    margin-top: 30px; 
+    margin-left: 50px;*/
+    background-color: black;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px 20px 30px;
+    /*margin:auto;*/
+    opacity: 70%;
+}
+
+.foto {
+    border: solid 1px;
+    border-radius: 50%;
+    margin-top: 5%;
+    width: 150px;
+    height: 120px;
+}
