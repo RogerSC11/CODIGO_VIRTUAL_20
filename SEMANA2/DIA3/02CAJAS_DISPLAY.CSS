@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main__sidebar {
+    width: 240px;
+    border: 1px solid red;
+    height: 200px;
+    display: inline-block;
+}
+
+.main__principal {
+    width: 600px;
+    border: 1px solid purple;
+    height: 200px;
+    display: inline-block;
+}
+
+.navbar_list-item {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 3.5px 15px;
+}
+
+.navbar__list {
+    /* regla para desaparecer las viñetas en ul*/
+    list-style: none;
+    text-align: center;
+    /*background-color: rebeccapurple;*/
+    transition: all 0.1s ease-in 0s;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #24252a;
+    height: 50px;
+    box-shadow: #aaa 0px 0px 8px;
+    color: #eee;
+}
+
+/* .active {
+
+    background-color: #0287a8;
+    border-radius: 2.na0px;
+    padding: 3.5px 15px;
+} */
+.navbar_list-item:hover {
+    background-color: #0287a8;
+    transform: scale(1.15);
+ 
+}
