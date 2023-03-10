@@ -1,0 +1,27 @@
+.enca2 {
+    height: 10vh;
+    border: solid orange 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+.enca1 {
+    width: 20%;
+    height: 70px;
+    background-color: rgb(0, 17, 255);
+    margin: 8px;
+}
+
+.enca0 {
+    width: 80%;
+    height: 70px;
+    background-color: rgb(255, 208, 0);
+    margin: 8px;
+}
+.papa {
+    display: flex;
+    margin: 5px;
+}
