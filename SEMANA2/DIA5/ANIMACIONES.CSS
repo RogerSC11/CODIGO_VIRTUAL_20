@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+/*animancion*/
+
+.texto-animando {
+    /*una animancion esta compuesta por un nombre y un tiempo*/
+    animation-name: texto-volador;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    border: solid;
+}
+
+@keyframes texto-volador {
+
+    from {
+        margin-left: 100%;
+        width: 300%;
+        background-color: aqua;
+        border: none;
+
+    }
+
+    to {
+        margin-left: -100%;
+        background-color: brown;
+        color: white;
+        border: none;
+
+    }
+}
+
+.imagen-animada {
+    animation-name: image-resize;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+    width: 400px;
+    height: 400px;
+}
+
+@keyframes image-resize {
+    from {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    to {
+
+        width: 400px;
+        height: 400px;
+
+    }
+}
+
+.box-uno {
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    animation-name: box-animation;
+    animation-duration: 10s;
+}
+
+@keyframes box-animation {
+
+    0% {
+        background-color: black;
+
+    }
+
+    25% {
+        background-image: url("./angus-young-2.jpg");
+    }
+
+    50% {
+        background-image: url("./image-avatar.png");
+    }
+
+    75% {
+        background-image: url("./angus-young-2.jpg");
+    }
+
+    100% {
+        background-image: url("./image-avatar.png");
+    }
+}
+
+/*ball uno*/
+.ball-uno {
+    height: 100px;
+    width: 100px;
+    border: solid green 2px;
+    border-radius: 50%;
+    animation-name: ball-animantion;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: aquamarine;
+
+}
+
+@keyframes ball-animantion {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-130px);
+    }
+}
