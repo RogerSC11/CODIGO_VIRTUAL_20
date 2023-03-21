@@ -26,17 +26,17 @@
             border: 1px solid red;
             border-radius: 5px;
             /*transform: scale(0.9);*/
-            transition: all 1s ease-in-out 0s;
+            transition: all 2s ease-in-out 0s;
         }
 
         .caja-1:hover {
-            transform: scale(1.2);
+           transform: scale(1.2);
             background-color: red;
 
         }
 
         .bolita-1,
-        .bolita-2 {
+        .bolita-2, .bolita-3 {
             width: 100px;
             height: 100px;
             border-radius: 50%;
@@ -48,12 +48,19 @@
         .bolita-2{
             transition: all 2s ease-out 0s;
         }
+        .bolita-3{
+            transition: all 2s ease-in-out 0s;
+        }
+
         .fondo-rojo {
             background-color: red;
         }
 
         .fondo-morado {
             background-color: purple;
+        }
+        .fondo-amarillo{
+            background-color: yellow;
         }
 
         .padre {
@@ -69,17 +76,21 @@
         .padre:hover .bolita-2 {
             transform: translate(700px, 0px)
         }
+        .padre:hover .bolita-3{
+            transform: translate(700px, 0px);
+        }
     </style>
 </head>
 
 <body>
-    <a href="#">NOSTROS</a>
+    <a href="#">NOSOTROS</a>
     <div class="caja-1">
         a
     </div>
     <div class="padre">
         <div class="bolita-1 fondo-rojo"></div>
         <div class="bolita-2 fondo-morado"></div>
+        <div class="bolita-3 fondo-amarillo"></div>
     </div>
 
 

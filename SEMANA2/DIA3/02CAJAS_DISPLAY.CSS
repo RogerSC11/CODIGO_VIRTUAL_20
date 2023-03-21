@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+/*.main{
+    display: flex;
+    gap: 1px;
+}*/
 .main__sidebar {
     width: 240px;
     border: 1px solid red;
@@ -33,13 +37,17 @@
     /*background-color: rebeccapurple;*/
     transition: all 0.1s ease-in 0s;
     cursor: pointer;
+    
+   /* display: flex;
+    justify-content: center;*/
 }
 
 .navbar {
-    background-color: #24252a;
+    background-color: #1f5324;
     height: 50px;
     box-shadow: #aaa 0px 0px 8px;
     color: #eee;
+    
 }
 
 /* .active {
